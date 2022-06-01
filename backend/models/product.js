@@ -32,19 +32,19 @@ const productSchema = new mongoose.Schema({
             required: true
         }
     }],
-    catagory: {
+    category: {
         type: String,
         required: [true, 'Pleasae select Catagory for this product'],
         enum: {
             values: [
-                'Electronices',
+                'Electronics',
                 'Cameras',
-                'Laptop',
+                'Laptops',
                 'Accessories',
                 'Headphones',
-                'food',
+                'Food',
                 'Books',
-                'Cloths/Shoes',
+                'Clothes/Shoes',
                 'Beauty/Health',
                 'Sports',
                 'Outdoor',
