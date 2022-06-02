@@ -1,4 +1,4 @@
 npm init
 npm i express dotenv mongoose
 npm install -g nodemon --save-dev
-Have to install mongoDB.exe for windows otherwise cant possible to connect.
+Have to install mongoDB.exe for windows otherwise cant possible to connect to db .
